@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoDrive Car Dealer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>AutoDrive</h1>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#cars">Cars</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="home" class="hero">
+    <h2>Trusted Car Supplier</h2>
+    <p>New & Used Cars at Best Prices</p>
+    <button onclick="scrollToCars()">View Cars</button>
+</section>
+
+<section id="cars" class="cars">
+    <h2>Available Cars</h2>
+
+    <div class="car-list">
+        <div class="car-card">
+            <img src="https://via.placeholder.com/250" alt="Car">
+            <h3>Toyota Corolla</h3>
+            <p>Price: $18,000</p>
+            <button>Buy Now</button>
+        </div>
+
+        <div class="car-card">
+            <img src="https://via.placeholder.com/250" alt="Car">
+            <h3>Honda Civic</h3>
+            <p>Price: $20,500</p>
+            <button>Buy Now</button>
+        </div>
+
+        <div class="car-card">
+            <img src="https://via.placeholder.com/250" alt="Car">
+            <h3>Hyundai Tucson</h3>
+            <p>Price: $25,000</p>
+            <button>Buy Now</button>
+        </div>
+    </div>
+</section>
+
+<section id="about" class="about">
+    <h2>About Us</h2>
+    <p>
+        AutoDrive is a reliable car dealer supplying high-quality vehicles
+        with customer satisfaction as our top priority.
+    </p>
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Email" required>
+        <textarea placeholder="Message"></textarea>
+        <button type="submit">Send</button>
+    </form>
+</section>
+
+<footer>
+    <p>© 2025 AutoDrive Car Dealer. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
